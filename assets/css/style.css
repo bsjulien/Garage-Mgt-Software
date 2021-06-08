@@ -1,0 +1,204 @@
+/*===================================== LOGIN FORM ==============================*/
+
+
+/*===============================================================================*/
+html{
+  /*overflow-x:hidden;*/
+}
+.row.content {
+  height: 700px;
+}
+body{
+  background-color: forestgreen/*#EE2050*/;
+}
+    /*side nav styles*/
+.sidenav {
+  background-color: forestgreen/*#EE2050*/;
+  height: 100%;
+}
+.sidenav .sidenav-head{
+  background-color: forestgreen/*#EE2050*/;
+  padding: 5px;
+  width: auto;
+}
+.sidenav .sidenav-head h4{
+color: white;
+font-family: monospace;
+font-weight: 600;
+font-size: 26px;
+text-align: center;
+}
+.nav-stacked li a{
+  color: gainsboro;
+  font-family: consolas;
+  font-size: 20px;
+}
+.nav-stacked li a:Focus{
+  background-color: mediumseagreen;
+  border-left: 4px solid white;
+}
+.nav-stacked li a.dropdown-toggle:focus{
+  background-color: mediumseagreen;
+  border-left: 0px;
+}
+.nav-stacked li a:link{
+background-color: darkgreen /*crimson*/;
+}
+.nav-stacked li a:hover{
+  background-color:seagreen;
+  opacity: 0.9;
+  border-left: 4px solid white;
+  transition: all 1s;
+
+}
+/*.nav-stacked .dropdown .dropdown-menu li{
+background-color:;
+}*/
+
+.nav-stacked .dropdown .dropdown-menu li:hover{
+  background-color:blue;
+  opacity: 0.9;
+  border-left: 4px solid white;
+}
+
+.sidenav .nav-stacked .dropdown-menu{
+  background-color: white;
+  width: 307px;
+  margin-bottom: 10px;
+
+}
+
+
+  /* content-style*/
+.content-head{
+  border-top: 2px solid white;
+  background-color: forestgreen/*#EE2050*/;
+  width: auto !important;
+  height: 55px;
+  margin-left: -15px;
+}
+.content-head .language{
+  margin-top: 5px;
+  margin-left: 5px;
+  position: absolute;
+  background-color: mediumseagreen;
+  padding: 1px 6px 1px 6px;
+  border-radius: 1px;
+  color: white;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 12px;
+  cursor: alias;
+}
+
+.content-head .language:hover{
+  background-color: rgb(60, 179, 130);
+}
+.content-head img{
+  width: 50px;
+  margin-top: 1px;
+  margin-right: 10px;
+  float: right;
+
+}
+.content-head .dropdown ul.dropdown-menu{
+  background-color: white;
+  border:gainsboro;
+  margin-top: 52px;
+  position: relative;
+  float: right;
+  margin-right: -62px;
+}
+.content-head .dropdown ul.dropdown-menu li a{
+  color: black;
+  font-weight: 800;
+  font-size: 18px;
+  font-family: monospace;
+
+}
+
+.data-content{
+  overflow-y:scroll;
+  background-color: white;
+  width: auto !important;
+  height:645px;
+  margin-left: -15px;
+}
+/* width */
+/*::-webkit-scrollbar {
+    width: 20px;
+}*/
+
+/* Track */
+/*::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+}*/
+ 
+/* Handle 
+::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+}*/
+
+/* Handle on hover */
+/*::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+}*/
+
+
+  /*Footer styles*/
+footer {
+  background-color: forestgreen;
+  color: white;
+  padding: 15px;
+}
+#page_title{
+  font-family: monospace;
+    font-weight: bold;
+    color: forestgreen;
+
+    margin-left: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {
+      height: auto;
+    }
+    .content-head{
+      width: auto;
+  
+    }
+    /*.content-head img{
+      float: left;
+    }*/
+ 
+}

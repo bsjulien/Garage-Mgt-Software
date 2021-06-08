@@ -1,0 +1,38 @@
+{
+  "name": "tabcomplete",
+  "author": "Mattias Erming",
+  "version": "1.5.3",
+  "description": "Lightweight tab completion for inputs and textareas",
+  "homepage": "https://github.com/erming/tabcomplete",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/erming/tabcomplete"
+  },
+  "npmName": "tabcomplete",
+  "npmFileMap": [
+    {
+      "basePath": "/src/",
+      "files": [
+        "*.js"
+      ]
+    }
+  ],
+  "filename": "tabcomplete.js",
+  "license": "MIT",
+  "keywords": [
+    "tab",
+    "complete",
+    "autocomplete",
+    "hint",
+    "hinting",
+    "input",
+    "textarea"
+  ],
+  "dependencies": {
+    "jquery": ">=1.9"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-uglify": "^0.4.0"
+  }
+}
