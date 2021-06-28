@@ -5,7 +5,6 @@ The day-to-day operations includes managing the movement of cars in and out of t
 garage, managing stock involving spare sparts and other tools, managing employees and many
 others. 
 
-Using the System: First import the sql database called g-stock.sql in localhost/phpmyadmin.
-Then access the system by using the following credentials: Username: Bangara, Password: garage.
+hit me up on julien.barezi@gmail.com if you are interested in the system.
 
 NB: The system is copyrighted. To use it commercially demands permission.
